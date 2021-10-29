@@ -1,5 +1,9 @@
 @import "variables";
 
+.d-header {
+  background: linear-gradient(to right, #f12711, #f5af19);
+}
+
 #main-outlet {
   margin-top: 42px;
   margin-bottom: 50px;
@@ -69,6 +73,10 @@
   .fa {
     color: $color-white;
   }
+}
+
+.alert-emails-disabled {
+  display: none;
 }
 
 .admin-controls .nav-pills>li a.active {
