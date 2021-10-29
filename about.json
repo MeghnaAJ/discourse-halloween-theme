@@ -1,0 +1,19 @@
+{
+  "name": "discourse-halloween-theme",
+  "about_url": "",
+  "license_url": "https://github.com/MeghnaAJ/discourse-halloween-theme/blob/master/LICENSE",
+  "author": "Meghna",
+  "assets": {
+  },
+  "color_schemes": {
+    "halloween": {
+      "primary": "ffffff",
+      "secondary": "222222",
+      "tertiary": "fa6800",
+      "quaternary": "fa6800",
+      "header_background": "fa6800",
+      "header_primary": "ffffff"
+    }
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}

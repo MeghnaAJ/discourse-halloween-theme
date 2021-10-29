@@ -1,0 +1,83 @@
+@import "variables";
+
+#main-outlet {
+  margin-top: 42px;
+  margin-bottom: 50px;
+  border-radius: $radius-10;
+  width: 75%;
+  max-width: 1030px;
+  padding: 3em 3em 5%;
+  padding-bottom: 5% !important;  
+  background: #161616;
+}
+
+.nav-pills li a {  
+  &.active {
+    font-weight: 500;
+    color: $color-white;
+    background: none;
+    border-bottom: 2px solid $color-orange;
+  }
+  &:hover {
+    background-color: $color-orange;
+    color: $color-white;
+    border-radius: $radius-2;
+  }
+}
+
+#create-topic {
+  background: transparent;
+  border: 2px solid $color-orange;
+  border-radius: $radius-10;
+  &:hover {
+    color: $color-white;
+    background: $color-orange;
+    .fa {
+      color: $color-white;
+    }
+  }
+}
+
+.d-header-icons .d-icon {
+  color: $secondary;
+}
+
+.btn-primary {
+  color: $color-white;
+  background: transparent;
+  border: 2px solid $color-orange;
+  border-radius: $radius-10;
+  .fa {
+    color: $color-white;
+  }
+}
+
+.btn-primary[href] {
+  color: var(--primary);
+}
+
+.discourse-no-touch .btn-primary:hover, .discourse-no-touch .btn-primary.btn-hover {
+  color: $color-white;
+  background: $color-orange;
+  .fa {
+    color: $color-white;
+  }
+}
+
+.btn-danger {
+  color: $color-white;
+  .fa {
+    color: $color-white;
+  }
+}
+
+.admin-controls .nav-pills>li a.active {
+  background: transparent;
+}
+
+.admin-actions {
+  .btn-default:hover {
+    background: transparent;
+    border: 2px solid $color-orange;
+  }
+}
